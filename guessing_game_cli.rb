@@ -1,8 +1,8 @@
 # Code your solution here!
 
 def run_guessing_game
+  puts "Guess a number betwen 1 and 6.\n"
   roll = rand(6) + 1
-	puts "Guess a number betwen 1 and 6.\n"
 	user_input = gets.chomp
 	over = "exit"
     if user_input == roll
