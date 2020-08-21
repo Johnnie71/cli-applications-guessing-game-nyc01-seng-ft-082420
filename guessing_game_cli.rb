@@ -2,7 +2,7 @@
 
 def run_guessing_game
   puts "Guess a number betwen 1 and 6.\n"
-  roll = rand(6) + 1
+  roll = 1 + rand(6).to_s
 	user_input = gets.chomp
 	over = "exit"
     if user_input == roll
