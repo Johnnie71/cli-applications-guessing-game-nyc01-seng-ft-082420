@@ -3,7 +3,7 @@
 def run_guessing_game
   puts "Guess a number betwen 1 and 6.\n"
   roll = 1 + rand(6).to_s
-	user_input = gets.chomp
+	user_input = gets.chomp.to_s
 	over = "exit"
     if user_input == roll
     	puts "You guessed the correct number!"
